@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+
+.card-container {
+  background-color: #27252a;
+  border-radius: 0.5rem;
+  border: 1px solid #01010102;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 2px 1px rgba(27, 27, 27, 0.2);
+}
+
+h1 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.8rem;
+  font-family: "Abril";
+  color: #53fbdd;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: "Josefin", sans-serif;
+  font-weight: bold;
+  color: #53fbdd;
+}
+
+.img-container {
+  height: 25vh;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.designer-description {
+  padding: 1rem;
+  font-family: "Josefin", sans-serif;
+  color: #d1e6ed;
+}
+
+.designer-quote {
+  padding: 1rem;
+  font-family: "Josefin", sans-serif;
+  font-style: italic;
+  color: #d1e6ed;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+#card-button {
+  border: none;
+  width: 30%;
+  height: 2rem;
+  background-color: #53fbdd;
+  border-radius: 2rem;
+  color: #27252a;
+  font-family: "Josefin", sans-serif;
+  font-weight: bold;
+}
